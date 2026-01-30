@@ -1,0 +1,261 @@
+/* 全局样式 */
+* {
+    font-family: 'Microsoft YaHei', Arial, sans-serif;
+    font-size: 14px;
+}
+
+QMainWindow {
+    background-color: #f5f5f5;
+}
+
+/* 主容器 */
+QWidget {
+    background-color: #f5f5f5;
+}
+
+/* 标签 */
+QLabel {
+    color: #333333;
+    font-weight: 500;
+}
+
+/* 输入框 */
+QLineEdit {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 6px;
+    padding: 6px 10px;
+    color: #333333;
+    selection-background-color: #e3f2fd;
+    selection-color: #1976d2;
+}
+
+QLineEdit:focus {
+    border: 2px solid #1976d2;
+    outline: none;
+}
+
+/* 按钮 */
+QPushButton {
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 16px;
+    font-weight: 500;
+    min-height: 36px;
+}
+
+QPushButton:hover {
+    background-color: #1565c0;
+}
+
+QPushButton:pressed {
+    background-color: #0d47a1;
+}
+
+QPushButton:disabled {
+    background-color: #bdbdbd;
+    color: #757575;
+}
+
+/* 表格 */
+QTableWidget {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 6px;
+    gridline-color: #f0f0f0;
+}
+
+QTableWidget::item {
+    padding: 8px;
+}
+
+QTableWidget::item:selected {
+    background-color: #e3f2fd;
+    color: #1976d2;
+}
+
+QHeaderView {
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #dddddd;
+}
+
+QHeaderView::section {
+    background-color: #f5f5f5;
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid #dddddd;
+    color: #333333;
+    font-weight: 500;
+}
+
+QHeaderView::section:horizontal {
+    border-right: 1px solid #dddddd;
+}
+
+QHeaderView::section:horizontal:last {
+    border-right: none;
+}
+
+/* 对话框 */
+QDialog {
+    background-color: #f5f5f5;
+    border-radius: 8px;
+}
+
+QDialogButtonBox QPushButton {
+    min-width: 80px;
+}
+
+/* 导航按钮 */
+QPushButton[text="1. 人员管理"],
+QPushButton[text="2. 奖品管理"],
+QPushButton[text="4. 开始抽奖"] {
+    background-color: #424242;
+    color: white;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+QPushButton[text="1. 人员管理"]:hover,
+QPushButton[text="2. 奖品管理"]:hover,
+QPushButton[text="4. 开始抽奖"]:hover {
+    background-color: #303030;
+}
+
+/* 批量操作按钮 */
+QPushButton[text="生成模板"],
+QPushButton[text="批量导入"],
+QPushButton[text="批量删除"] {
+    background-color: #757575;
+}
+
+QPushButton[text="生成模板"]:hover,
+QPushButton[text="批量导入"]:hover,
+QPushButton[text="批量删除"]:hover {
+    background-color: #616161;
+}
+
+/* 刷新按钮 */
+QPushButton[text="刷新"] {
+    background-color: #607d8b;
+}
+
+QPushButton[text="刷新"]:hover {
+    background-color: #455a64;
+}
+
+/* 查询按钮 */
+QPushButton[text="查询"] {
+    background-color: #388e3c;
+}
+
+QPushButton[text="查询"]:hover {
+    background-color: #2e7d32;
+}
+
+/* 添加按钮 */
+QPushButton[text="添加"] {
+    background-color: #e65100;
+}
+
+QPushButton[text="添加"]:hover {
+    background-color: #bf360c;
+}
+
+/* 表格中的按钮 */
+QTableWidget QPushButton {
+    min-height: 30px;
+    padding: 4px 12px;
+    font-size: 12px;
+}
+
+QTableWidget QPushButton[text="修改"] {
+    background-color: #ff9800;
+}
+
+QTableWidget QPushButton[text="修改"]:hover {
+    background-color: #f57c00;
+}
+
+QTableWidget QPushButton[text="删除"] {
+    background-color: #d32f2f;
+}
+
+QTableWidget QPushButton[text="删除"]:hover {
+    background-color: #b71c1c;
+}
+
+QTableWidget QPushButton[text="重置"] {
+    background-color: #757575;
+}
+
+QTableWidget QPushButton[text="重置"]:hover {
+    background-color: #616161;
+}
+
+/* 中奖概率管理按钮 */
+QPushButton[text="中奖概率管理"] {
+    background-color: #7b1fa2;
+}
+
+QPushButton[text="中奖概率管理"]:hover {
+    background-color: #4a148c;
+}
+
+/* 下拉框 */
+QComboBox {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 6px;
+    padding: 6px 30px 6px 10px;
+    color: #333333;
+}
+
+QComboBox:hover {
+    border: 1px solid #1976d2;
+}
+
+QComboBox:focus {
+    border: 2px solid #1976d2;
+    outline: none;
+}
+
+/* 滚动条 */
+QScrollBar {
+    background-color: #f5f5f5;
+    width: 8px;
+    height: 8px;
+}
+
+QScrollBar::handle {
+    background-color: #bdbdbd;
+    border-radius: 4px;
+}
+
+QScrollBar::handle:hover {
+    background-color: #9e9e9e;
+}
+
+/* 分割线 */
+QFrame[frameShape="HLine"] {
+    background-color: #e0e0e0;
+}
+
+/* 对话框按钮 */
+QDialogButtonBox QPushButton[text="确定"] {
+    background-color: #388e3c;
+}
+
+QDialogButtonBox QPushButton[text="确定"]:hover {
+    background-color: #2e7d32;
+}
+
+QDialogButtonBox QPushButton[text="取消"] {
+    background-color: #757575;
+}
+
+QDialogButtonBox QPushButton[text="取消"]:hover {
+    background-color: #616161;
+}

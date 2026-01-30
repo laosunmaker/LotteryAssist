@@ -1,0 +1,8 @@
+.env/
+docs/
+.git/
+.idea/
+out/
+test/
+*.pyc
+test.db
