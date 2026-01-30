@@ -16,7 +16,6 @@
 - **MVVM架构**：采用Model-View-ViewModel设计模式，代码结构清晰
 - **批量操作**：支持人员和奖品的批量导入和删除
 - **模糊查询**：支持按用户名和奖品名称进行模糊搜索
-- **跨平台兼容**：支持Windows、macOS、Linux等操作系统
 
 ## 🛠 技术栈
 
@@ -167,8 +166,9 @@ LotteryAssist/
 ## 📞 联系作者
 
 - **项目维护者**：lsmaker
-- **邮箱**：13284005561@163.com
+- **邮箱**：1650562331@qq.com
 - **QQ**: 1650562331
+- **微信号**：lsmaker
 - **GitHub**：[https://github.com/laosunmaker](https://github.com/laosunmaker)
 
 ---
