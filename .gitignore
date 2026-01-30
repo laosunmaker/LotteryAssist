@@ -4,5 +4,6 @@ docs/
 .idea/
 out/
 test/
+template/
 *.pyc
 test.db
